@@ -1,0 +1,14 @@
+{
+  "name": "@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e",
+  "main": "40b5ddff0e222171@1423.js",
+  "version": "1423.0.0",
+  "homepage": "https://observablehq.com/@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e",
+  "author": {
+    "name": "edvarfilho",
+    "url": "https://observablehq.com/@edvarfilho"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
