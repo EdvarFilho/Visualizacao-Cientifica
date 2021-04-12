@@ -1,6 +1,6 @@
 # REleCe: Análises e visualizações sobre o censo e resultado eleitoral de 2020 no Estado do Ceará
 
-https://observablehq.com/@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e@1423
+https://observablehq.com/@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e@1425
 
 View this notebook in your browser by running a web server in this folder. For
 example:

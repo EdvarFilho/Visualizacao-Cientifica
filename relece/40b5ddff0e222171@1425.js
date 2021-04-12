@@ -1,4 +1,4 @@
-// https://observablehq.com/@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e@1423
+// https://observablehq.com/@edvarfilho/relece-analises-e-visualizacoes-sobre-o-censo-e-resultado-e@1425
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -454,7 +454,7 @@ function container() {
     </div>
     
     <div class='row'>
-      <div id="mapid" class='row'>
+      <div id="mapid" class='row' style='margin-left: auto;margin-right: auto;'>
       </div>
       <div id="texto" class='row'>
        <p align="justify">Neste trabalho constam informações acerca do 1º turno das Eleições de 2020 do estado do Ceará. Serão mostradas informações quantitativas acerca dos votos recebidos por candidatos a prefeitos e dos dez vereadores mais votados do município selecionado no mapa.</p><p align="justify">Além disso, também constará o perfil do eleitorado, sendo quantificados os eleitores setorizados por grau de escolaridade, bem como a pirâmide populacional referente a eles.</p><p align="justify">E por fim, temos um gráfico de rede que ilustra a relação entre as coligações dos candidatos a prefeito e os partidos dos vereadores candidatos que compõem essa coligação.</p>
@@ -478,7 +478,7 @@ function container() {
      </div>
 
     <div class='row' id='network' style='display:none;'>
-        <h5 align="center">Rede de coligações e partidos</h5>
+        <h5 align="center">Rede de coligações e partidos</h5><br>
         <p align="justify">Com o intuito de analisarmos o impacto da quantidade de votos por coligação de um candidato a prefeito e partidos dos candidatos a vereadores, temos a rede apresentada abaixo.</p><p align="justify">A rede apresenta para cada município diversos grafos, em que cada nó é compreendido por partido ou coliagção do municipo, para cada cor temos uma coligação. </p><p align="justify">O nó principal de cada rede compreende a coligação do candidato a prefeito e quantidade de votos que ele recebeu. Os nós conectados a este, referem-se aos partidos daquela coligação e quantidade de votos para cada partido destinado aos vereadores.</p>
    </div> 
     
@@ -490,7 +490,7 @@ function container() {
     </div>
 
     <div class='row' id='pyramid' style='display:none;'>
-        <h5 align="center">Pirâmide populacional dos eleitores do município</h5>
+        <h5 align="center">Pirâmide populacional dos eleitores do município</h5><br>
         <p align="justify">O gráfico abaixo apresenta a pirâmide populacionado dos eleitores que compareceram as eleiçõs no município, em que para cada faixa etária temos a quantidade de eleitores para cada sexo, masculino ou feminino. Essa informação pode ser levada em consideração para possíveis aplicações de políticas públicas, para crescimento da taxa de mortalidade no município, por exemplo.</p>
     </div>
 
